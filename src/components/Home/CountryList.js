@@ -6,6 +6,7 @@ import { fetchApi } from '../../Redux/pollution/pollutionSlice';
 import Country from './Country';
 import styles from './country.module.css';
 
+
 const CountryList = () => {
   const countryList = useSelector((state) => state.pollutionSlice.countryList);
 
@@ -28,7 +29,7 @@ const CountryList = () => {
       <h2 className={styles.statsheading}>Stats by Country Name</h2>
 
       <input
-        className="search-input"
+        className={styles.searchInput}
         type="text"
         value={search}
         aria-label="search"
