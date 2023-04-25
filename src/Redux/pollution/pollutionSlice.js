@@ -2,7 +2,6 @@ import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 import axios from 'axios';
 
 const Endpoint = 'https://restcountries.com/v2/all';
-
 export const fetchApi = createAsyncThunk('country/fetch', async () => {
   const response = await axios.get(Endpoint);
   if (response.data) {
