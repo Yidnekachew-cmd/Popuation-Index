@@ -86,7 +86,6 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-
 - [Live Demo Link](https://population-index.onrender.com/)
 - [Loom Video Link]()
 
