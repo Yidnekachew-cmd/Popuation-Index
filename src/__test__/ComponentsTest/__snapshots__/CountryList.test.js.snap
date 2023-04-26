@@ -12,7 +12,7 @@ Object {
       </h2>
       <input
         aria-label="search"
-        class="search-input"
+        class="searchInput"
         placeholder="Search a country..."
         type="text"
         value=""
@@ -40,7 +40,7 @@ Object {
     </h2>
     <input
       aria-label="search"
-      class="search-input"
+      class="searchInput"
       placeholder="Search a country..."
       type="text"
       value=""

@@ -4,7 +4,7 @@ import renderer from 'react-test-renderer';
 import { BrowserRouter as Router } from 'react-router-dom';
 import '@testing-library/jest-dom';
 import Home from '../../pages/Home';
-import store from '../../Redux/store.js';
+import store from '../../Redux/store';
 
 describe('Home', () => {
   test('renders correctly', () => {

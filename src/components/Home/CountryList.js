@@ -6,7 +6,6 @@ import { fetchApi } from '../../Redux/pollution/pollutionSlice';
 import Country from './Country';
 import styles from './country.module.css';
 
-
 const CountryList = () => {
   const countryList = useSelector((state) => state.pollutionSlice.countryList);
 
