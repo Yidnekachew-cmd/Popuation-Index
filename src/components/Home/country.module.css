@@ -1,19 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-.card {
-  margin: 10px;
-  background: rgb(215, 55, 111);
+.searchInput {
+  width: 30%;
+  border-radius: 0.7rem;
+  outline-color: rgb(74, 114, 189);
+  border: none;
+  padding: 0.3rem;
+}
+
+.cardItem {
+  margin: 0.7rem;
+  background-color: rgb(74, 114, 189);
+  border-radius: 0.3rem;
   padding: 10px;
   width: 300px;
   height: 215px;
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 0 11px 8px #6c262c;
+  box-shadow: 0 0 11px 8px rgb(41, 72, 129);
 }
 
-.list:nth-child(even) .card {
-  background-color: rgb(161 35 79);
+.list:nth-child(even) .cardItem {
+  background-color: rgb(50, 90, 163);
 }
 
 ul,
@@ -26,7 +35,7 @@ li {
   margin: -15px 0;
 }
 
-.descp {
+.description {
   margin: 10px;
   padding: 5px;
   display: flex;
@@ -36,16 +45,16 @@ li {
   left: 20px;
 }
 
-.descp h4,
+.description h4,
 p {
   color: #fff;
 }
 
-.descp p {
+.description p {
   font-family: 'Montserrat', sans-serif;
 }
 
-.descpDiv {
+.desciptionDiv {
   display: flex;
   flex-direction: column;
 }
@@ -102,7 +111,7 @@ p {
     margin: 1px;
   }
 
-  .card {
+  .cardItem {
     width: 150px;
     margin: 3px;
   }
@@ -121,7 +130,7 @@ p {
     font-size: 16px;
   }
 
-  .descp p {
+  .description p {
     font-size: 11px;
   }
 
