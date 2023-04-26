@@ -87,7 +87,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo Link](https://population-index.onrender.com/)
-- [Loom Video Link]()
+- [Loom Video Link](https://www.loom.com/share/5519caa330a14fc89fd602aaeba363ce)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
