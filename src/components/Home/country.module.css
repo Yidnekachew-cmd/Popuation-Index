@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.searchInput {
+  width: 30%;
+  border-radius: 0.7rem;
+  outline-color: rgb(74, 114, 189);
+  border: none;
+  padding: 0.3rem;
+}
+
+.cardItem {
+  margin: 0.7rem;
+  background-color: rgb(74, 114, 189);
+  border-radius: 0.3rem;
+  padding: 10px;
+  width: 300px;
+  height: 215px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 11px 8px rgb(41, 72, 129);
+}
+
+.list:nth-child(even) .cardItem {
+  background-color: rgb(50, 90, 163);
+}
+
+ul,
+li {
+  list-style: none;
+  color: white;
+}
+
+.list {
+  margin: -15px 0;
+}
+
+.description {
+  margin: 10px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  position: relative;
+  left: 20px;
+}
+
+.description h4,
+p {
+  color: #fff;
+}
+
+.description p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.desciptionDiv {
+  display: flex;
+  flex-direction: column;
+}
+
+.countryContainer {
+  display: flex;
+}
+
+.countrylist {
+  color: white;
+  font-size: 17px;
+  display: flex;
+  flex-flow: wrap;
+  margin: 5px 40px;
+  justify-content: center;
+}
+
+.flag {
+  width: 150px;
+  align-self: flex-start;
+  display: flex;
+  border-radius: 10px;
+}
+
+.direct {
+  font-size: x-large;
+  position: relative;
+  top: 45px;
+  left: 135px;
+  width: 22px;
+}
+
+.singleCountry {
+  color: white;
+  text-decoration: none;
+}
+
+.statsheading {
+  display: flex;
+  margin: 5px 50px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 17px;
+}
+
+@media (max-width: 768px) {
+  .countryContainer {
+    display: inline-flex;
+  }
+
+  .countrylist {
+    display: grid;
+    grid-template-columns: 0.5fr 0.75fr;
+    margin: 1px;
+  }
+
+  .cardItem {
+    width: 150px;
+    margin: 3px;
+  }
+
+  .direct {
+    top: 38px;
+    left: 65px;
+  }
+
+  .searchBar {
+    margin: 10px;
+  }
+
+  .statsheading {
+    margin: 8px;
+    font-size: 16px;
+  }
+
+  .description p {
+    font-size: 11px;
+  }
+
+  .flag {
+    width: 100px;
+  }
+}
