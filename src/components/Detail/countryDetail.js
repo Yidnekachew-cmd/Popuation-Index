@@ -23,7 +23,7 @@ const CountryDetail = (props) => {
   });
   return (
     <div className={styles.statContainer}>
-      <div className={styles.lesserDetail}>
+      <div className={styles.countryDetail}>
         <Country country={country} />
       </div>
       <h3 className={styles.heading}>Stats Breakdown</h3>

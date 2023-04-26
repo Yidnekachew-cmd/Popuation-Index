@@ -8,12 +8,12 @@ const Country = (props) => {
   const { name, population, flags } = country;
   return (
 
-    <Col className={styles.card}>
-      <div className={styles.descpDiv}>
+    <Col className={styles.cardItem}>
+      <div className={styles.desciptionDiv}>
 
         <img className={styles.flag} src={flags.svg} alt={`${name}Country Images`} />
 
-        <div className={styles.descp}>
+        <div className={styles.description}>
           <h4>{name}</h4>
           <p>
             {detailed && 'Poplution: '}
