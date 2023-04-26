@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-.lesserDetail {
+.countryDetail {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -42,10 +42,10 @@
 }
 
 .rowDetails:nth-of-type(odd) {
-  background-color: rgb(189 36 89);
+  background-color: rgb(62, 102, 177);
 }
 
-.direct {
+.arrow {
   display: flex;
   position: absolute;
   right: 10px;
@@ -60,7 +60,7 @@
     gap: 20px;
   }
 
-  .direct {
+  .arrow {
     position: relative;
     right: 0;
   }
