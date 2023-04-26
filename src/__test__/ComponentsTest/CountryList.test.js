@@ -1,7 +1,7 @@
 import React from 'react';
 import { Provider } from 'react-redux';
 import { render } from '@testing-library/react';
-import store from '../../Redux/store';
+import store from '../../Redux/store.js';
 import CountryList from '../../components/Home/CountryList';
 
 describe('It renders', () => {

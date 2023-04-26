@@ -68,7 +68,7 @@ Array [
     </h2>
     <input
       aria-label="search"
-      className="searchInput"
+      className="search-input"
       onChange={[Function]}
       placeholder="Search a country..."
       type="text"
